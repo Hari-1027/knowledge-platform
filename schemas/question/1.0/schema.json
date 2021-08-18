@@ -183,9 +183,7 @@
           "Other"
         ]
       },
-      "default": [
-        "English"
-      ]
+      "default": ["English"]
     },
     "languageCode": {
       "type": "array"
@@ -196,19 +194,19 @@
     "framework": {
       "type": "string"
     },
-    "subject": {
+    "subject" : {
       "type": "array"
     },
-    "medium": {
+    "medium" : {
       "type": "array"
     },
-    "board": {
+    "board" : {
       "type": "string"
     },
-    "gradeLevel": {
+    "gradeLevel" : {
       "type": "array"
     },
-    "topic": {
+    "topic" : {
       "type": "array"
     },
     "boardIds": {
@@ -476,7 +474,7 @@
       ],
       "default": "No"
     },
-    "interactionTypes": {
+    "interactionTypes" : {
       "type": "array",
       "items": {
         "type": "string",
@@ -490,10 +488,10 @@
         ]
       }
     },
-    "templateId": {
+    "templateId" : {
       "type": "string"
     },
-    "bloomsLevel": {
+    "bloomsLevel" : {
       "description": "Cognitive processes involved to answer the question set.",
       "type": "string",
       "enum": [
